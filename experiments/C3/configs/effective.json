@@ -1,0 +1,43 @@
+{
+  "angles_degrees": [
+    20,
+    45,
+    70
+  ],
+  "angle_convention": "array axis cos(theta)",
+  "array_elements": 4,
+  "spacing_lambda": 0.5,
+  "axial_displacement_lambda": 0.383,
+  "interferer_power_ratios": [
+    10,
+    10
+  ],
+  "gamma": 0.1,
+  "reverse_noise_variance": 0.0009,
+  "mixed_pilot_noise_variance": 0.21,
+  "seeds": [
+    262400000,
+    262400001,
+    262400002,
+    262400003,
+    262400004,
+    262400005,
+    262400006,
+    262400007
+  ],
+  "methods": [
+    "naive_polar",
+    "ZF_polar",
+    "MMSE_polar",
+    "single_user",
+    "CSI"
+  ],
+  "physical_examples": 3840,
+  "csi_examples": 2666,
+  "test_examples": 8192,
+  "pilot_pairs_per_user": 64,
+  "batch_size": 32,
+  "bootstrap_seed": 262499999,
+  "bootstrap_replicates": 20000,
+  "source_of_truth": "SPEC.md and src/g24.py; config.json is inherited helper config, unused legacy fields are not settings for this experiment"
+}

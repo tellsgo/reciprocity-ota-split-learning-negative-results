@@ -1,0 +1,58 @@
+{
+  "seeds": [
+    572405956,
+    410100887,
+    1489389287,
+    212811971,
+    1849948223,
+    856705099,
+    1364369065,
+    2025152919
+  ],
+  "preflight_seeds": [
+    406805891,
+    2006220953,
+    630491424,
+    627229882,
+    1549460767,
+    969865787,
+    1418818349,
+    731482594
+  ],
+  "bootstrap_seed": 427255602,
+  "angles": [
+    15,
+    30,
+    60
+  ],
+  "target_angle": 30,
+  "angle_convention": "array-axis cos",
+  "spacing": 0.5,
+  "displacement": 0.383,
+  "train_n": 3840,
+  "test_n": 8192,
+  "probe_n": 256,
+  "mc_independent": 128,
+  "checkpoints": [
+    0,
+    40,
+    80,
+    120
+  ],
+  "primary_checkpoints": [
+    80,
+    120
+  ],
+  "batch": 32,
+  "arms": [
+    "naive",
+    "ZF",
+    "MMSE",
+    "single_user",
+    "CSI"
+  ],
+  "reverse_std": 0.03,
+  "forward_std": 0.1,
+  "gate_delta_ce": 0.1,
+  "tie_tol": 1e-10
+}

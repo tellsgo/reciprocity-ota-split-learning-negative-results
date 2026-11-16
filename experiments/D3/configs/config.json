@@ -1,0 +1,144 @@
+{
+  "version": "geometry_learning_v1_frozen",
+  "environment_seeds": [
+    823230000,
+    823230001,
+    823230002,
+    823230003,
+    823230004,
+    823230005,
+    823230006,
+    823230007
+  ],
+  "cases": [
+    "eta0.02",
+    "eta0.20"
+  ],
+  "methods": [
+    "S0",
+    "wideband_avg_polar",
+    "subcarrier_polar",
+    "CSI"
+  ],
+  "rf_observation_quota": 8000,
+  "batch_size": 32,
+  "test_samples": 8192,
+  "scalar_calibration_pairs": 64,
+  "matrix_calibration_pairs": 64,
+  "nt": 2,
+  "nr": 4,
+  "input_dim": 3,
+  "forward_noise_std": 0.1,
+  "reverse_noise_std": 0.03,
+  "pilot_noise_std": 0.1,
+  "scalar_rho": 0.7,
+  "mild_singular_values": [
+    0.85,
+    0.75,
+    0.65
+  ],
+  "stress_singular_values": [
+    0.85,
+    0.65,
+    0.4
+  ],
+  "matrix_seed_offset": 71000,
+  "calibration_seed_offset": 81000,
+  "train_seed_offset": 91000,
+  "test_seed_offset": 101000,
+  "initialization_seed_offset": 111000,
+  "correction_singular_floor": 0.2,
+  "correction_singular_cap": 1.2,
+  "scalar_magnitude_floor": 0.2,
+  "eiv_ridge_per_pair": 0.02,
+  "control_bits_per_real": 16,
+  "channel_real_quant_bound": 4.0,
+  "correction_real_quant_bound": 8.0,
+  "digital_gradient_real_quant_bound": 32.0,
+  "loss_quant_bound": 20.0,
+  "receiver_coordinate_bound": 4.0,
+  "receiver_l2": 0.001,
+  "encoder_frobenius_bound": 0.5773502691896258,
+  "initial_encoder_norm": 0.4,
+  "encoder_adam_lr": 0.025,
+  "receiver_adam_lr": 0.06,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.99,
+  "adam_eps": 1e-08,
+  "score_baseline_decay": 0.9,
+  "bootstrap_seed": 823239999,
+  "bootstrap_replicates": 20000,
+  "primary_case": "phase_stress",
+  "primary_ce_gain_threshold": 0.02,
+  "primary_min_winning_environments": 6,
+  "control_bits_per_rf_slot_scenarios": [
+    1,
+    16,
+    64
+  ],
+  "wall_budget_seconds": 1800,
+  "spectra": [
+    "isotropic",
+    "broad_asymmetric"
+  ],
+  "directions": [
+    "parallel",
+    "perpendicular"
+  ],
+  "displacements_lambda": [
+    0.0,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "angular_grid": 128,
+  "asymmetric_cluster_weight": 0.7,
+  "asymmetric_kappa": 2.0,
+  "asymmetric_center_degrees": 35.0,
+  "spacing_lambda": 0.5,
+  "channel_quant_bound": 4.0,
+  "correction_quant_bound": 32.0,
+  "calibration_ridge": 0.02,
+  "calibration_covariance_floor": 0.02,
+  "exact_pseudoinverse_relative_cutoff": 1e-08,
+  "estimated_pseudoinverse_absolute_cutoff": 0.1,
+  "estimated_scalar_floor": 0.1,
+  "scalar_zero_tolerance": 1e-12,
+  "seeds": [
+    823230000,
+    823230001,
+    823230002,
+    823230003,
+    823230004,
+    823230005,
+    823230006,
+    823230007
+  ],
+  "cpu_limit_seconds": 900,
+  "wall_limit_seconds": 1800,
+  "task_name": "G23_true_squint",
+  "fixed_training_examples": 3840,
+  "optimizer": "Adam",
+  "angles_degrees": [
+    30,
+    60,
+    90
+  ],
+  "tap_delays": [
+    0,
+    1,
+    2
+  ],
+  "tap_powers": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "n_subcarriers": 8,
+  "cp_length": 3,
+  "preflight_seed": 823239998,
+  "etas": [
+    0.02,
+    0.2
+  ]
+}

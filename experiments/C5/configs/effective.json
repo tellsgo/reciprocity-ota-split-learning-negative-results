@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    263000000,
+    263000001,
+    263000002,
+    263000003,
+    263000004,
+    263000005,
+    263000006,
+    263000007
+  ],
+  "angles": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "L": 4,
+  "antennas_per_ap": 2,
+  "d": 0.383,
+  "physical_examples": 3840,
+  "csi_examples": 2666,
+  "test_examples": 8192,
+  "pilots": 64,
+  "single_selection": "per-seed endpoint test oracle; report all fixed APs",
+  "bootstrap_seed": 263099999,
+  "bootstrap_replicates": 20000
+}

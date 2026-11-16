@@ -1,0 +1,27 @@
+{
+  "A_proxy_singular_values": [
+    1.0170453619976902,
+    0.9805467423336371,
+    0.009157977349585199
+  ],
+  "absolute_cutoff": 0.05,
+  "retained_rank": 2,
+  "Q_min_eigenvalue": 0.001955811109843185,
+  "M_polar_unitarity_error": 9.498027480171219e-16,
+  "cases": {
+    "2_polar": {
+      "second_moment_radius": 0.5067848855855461,
+      "stationary_energy": 0.00032624744442786457
+    },
+    "2_TSVD": {
+      "second_moment_radius": 0.5028292034187969,
+      "stationary_energy": 0.00032584375653999296
+    },
+    "3_polar": {
+      "second_moment_radius": 1.025052762724091
+    },
+    "3_TSVD": {
+      "second_moment_radius": 0.9999999999999991
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "bins": [
+    {
+      "decile": 1,
+      "n": 6662,
+      "amplitude_lo": 0.0,
+      "amplitude_hi": 0.3245928459745012,
+      "mean_amplitude": 0.21302030568716743,
+      "mean_gradient": 25.444832459446776,
+      "ci95": [
+        24.616846907920802,
+        26.445507974287246
+      ],
+      "analytic_prediction_sample_average": 24.931450453414993
+    },
+    {
+      "decile": 2,
+      "n": 6509,
+      "amplitude_lo": 0.3245928459745012,
+      "amplitude_hi": 0.4723807270774388,
+      "mean_amplitude": 0.40237709720576087,
+      "mean_gradient": 9.955750819978466,
+      "ci95": [
+        9.88192111654566,
+        10.01816169472205
+      ],
+      "analytic_prediction_sample_average": 9.898520460423523
+    },
+    {
+      "decile": 3,
+      "n": 6588,
+      "amplitude_lo": 0.4723807270774388,
+      "amplitude_hi": 0.5972226920828884,
+      "mean_amplitude": 0.5358856288780779,
+      "mean_gradient": 7.35702470832651,
+      "ci95": [
+        7.24109028330931,
+        7.454301746367134
+      ],
+      "analytic_prediction_sample_average": 7.381061664276379
+    },
+    {
+      "decile": 4,
+      "n": 6523,
+      "amplitude_lo": 0.5972226920828884,
+      "amplitude_hi": 0.7147206613537842,
+      "mean_amplitude": 0.6570072454673738,
+      "mean_gradient": 5.951090447950818,
+      "ci95": [
+        5.903076486680471,
+        6.006297021185279
+      ],
+      "analytic_prediction_sample_average": 6.009045904286649
+    },
+    {
+      "decile": 5,
+      "n": 6517,
+      "amplitude_lo": 0.7147206613537842,
+      "amplitude_hi": 0.8325546111576977,
+      "mean_amplitude": 0.7734333160500932,
+      "mean_gradient": 5.090858267100707,
+      "ci95": [
+        5.016896522082795,
+        5.161083225973947
+      ],
+      "analytic_prediction_sample_average": 5.1007101508452
+    },
+    {
+      "decile": 6,
+      "n": 6454,
+      "amplitude_lo": 0.8325546111576977,
+      "amplitude_hi": 0.9572307620809911,
+      "mean_amplitude": 0.8939298321821267,
+      "mean_gradient": 4.511037339614381,
+      "ci95": [
+        4.4582427211047415,
+        4.559994593320496
+      ],
+      "analytic_prediction_sample_average": 4.411735665409647
+    },
+    {
+      "decile": 7,
+      "n": 6534,
+      "amplitude_lo": 0.9572307620809911,
+      "amplitude_hi": 1.0972569454443821,
+      "mean_amplitude": 1.0254032722427007,
+      "mean_gradient": 3.811524432298119,
+      "ci95": [
+        3.7897673714952025,
+        3.839124916826867
+      ],
+      "analytic_prediction_sample_average": 3.845830048948012
+    },
+    {
+      "decile": 8,
+      "n": 6639,
+      "amplitude_lo": 1.0972569454443821,
+      "amplitude_hi": 1.2686362411795198,
+      "mean_amplitude": 1.1795944857944491,
+      "mean_gradient": 3.350043814709172,
+      "ci95": [
+        3.331096143703087,
+        3.369725817659214
+      ],
+      "analytic_prediction_sample_average": 3.343744420612223
+    },
+    {
+      "decile": 9,
+      "n": 6606,
+      "amplitude_lo": 1.2686362411795198,
+      "amplitude_hi": 1.5174271293851465,
+      "mean_amplitude": 1.3822755266738274,
+      "mean_gradient": 2.869118536347753,
+      "ci95": [
+        2.8260169011295293,
+        2.9089046815324022
+      ],
+      "analytic_prediction_sample_average": 2.8560178848894955
+    },
+    {
+      "decile": 10,
+      "n": 6504,
+      "amplitude_lo": 1.5174271293851465,
+      "amplitude_hi": null,
+      "mean_amplitude": 1.799980007151377,
+      "mean_gradient": 2.228040321291214,
+      "ci95": [
+        2.2021848639414103,
+        2.257563133408793
+      ],
+      "analytic_prediction_sample_average": 2.2238825211013284
+    }
+  ],
+  "bright_mean": 2.2295159754188827,
+  "dark_mean": 25.645621632155677,
+  "bright_dark_ratio": 0.08693554039740692,
+  "ratio_ci95": [
+    0.08320460899406489,
+    0.09041786210794946
+  ],
+  "empirical_amplitude_deciles": [
+    0.3219343202763084,
+    1.5152027466351812
+  ],
+  "monotonic_decrease": true,
+  "n": 65536,
+  "nonfinite_count": 0,
+  "maximum_gradient": 1834.3902291133381,
+  "minimum_amplitude": 0.004069023105643479,
+  "verdict": "archived–archived"
+}
